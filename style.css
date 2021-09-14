@@ -3,16 +3,56 @@
      box-sizing: border-box;
      margin:0;
      padding: 0;
-     font-family: 'Open Sans',sans-serif;
-}
+     font-family: 'Open Sans',sans-serif;  }
 
 .clearfix::after{
      display: table;
      clear: both;
-     content: "";
-}
+     content: "";    }
+
+a{
+     color: inherit;
+     text-decoration: none;     }
+     
+.bottone {
+     padding:10px 25px 10px 25px;   }
+     
+.blu {
+     background-color: #0061ff;
+     color: white;        }
 
 
+
+
+
+
+
+/* /GENERALS RULES */
+
+/* NAV */
+.margine_nav{
+     margin:0 1% 0 1%;  }  
+
+.blocco_nav{
+     width: 50%;
+     float: left;
+     padding: 30px 0px 30px;
+     max-height: 80px;      }
+
+.logo{
+     float: left;  }
+
+nav li{
+     display: inline;
+     list-style: none;
+     text-decoration: none;     }
+
+.blocco_nav:nth-child(2) > ul , li{
+     text-align: right;
+     padding-left: 50px;         }
+/* /NAV */
+
+     
 
 
 
