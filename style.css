@@ -10,13 +10,14 @@
      clear: both;
      content: "";    }
 
-a{
+header a {
      color: inherit;
      text-decoration: none;     }
      
 .bottone {
      padding:10px 25px 10px 25px; 
-     margin-bottom: 10px;  }
+     margin-bottom: 10px;
+     text-align: center;     }
      
 .blu {
      background-color: #0061ff;
@@ -26,11 +27,10 @@ a{
      margin: 0 8% 0 8% ;    }
 
 .margine_stretto{
-     margin: 0 17.5% 0 17.5%;  }
-
+     margin: 0 18% 0 18%;  }
 /* /GENERALS RULES */
 
-/* -----------     HEADER    ---------------- */
+/* --------------       HEADER    ---------------- */
 
 /* ----- NAV ----- */
 .margine_nav{
@@ -50,12 +50,12 @@ nav li{
      list-style: none;
      text-decoration: none;     }
 
-.blocco_nav:nth-child(2) > ul , li{
+.blocco_nav:nth-child(2) > ul , .blocco_nav li{
      text-align: right;
      padding-left: 50px;         }
 /* ----- /NAV ----- */
 
-/* -----  HEADER INFERIORE ----- */
+/* ---  HEADER INFERIORE --- */
 .sfondo_inf_header{
      background-color: #b4d0e7;
      height: 88vh;
@@ -90,50 +90,77 @@ header h1{
 #arrow_down{
      font-size:4rem;
      margin-top: 25px;  }
-/* -----  /HEADER INFERIORE ----- */
+/* ----  /HEADER INFERIORE ---- */
 
-/* -----------     /HEADER    ---------------- */
+/* -------------       /HEADER    ---------------- */
 
 
 
-/* -----------     MAIN    ---------------- */
+/* -------------         MAIN    ---------------- */
 
-/* SECTION 1 */
-
+/* ----- SECTION 1 ------ */
 .debug{
      margin-top: 12rem;
-     background-color: thistle;
-     height: 100vh;
-     width: 100%;
+     height: 130vh;
+     width: 100%;   }
 
-}
-
-h2{
+.margine_stretto  h1{
      font-size: 3rem;
-     padding-bottom: 30px;
-     
-}
+     padding-bottom: 30px;    }
 
 .layout_a_tre_colonne{
-     
-     
-}
+     padding-top: 40px;      }
 
 .box{
-     width: 30%;
-     height: 800px;
-     background-color: tomato;
+     width: 28%;
+     height: 105vh;
      float: left;
-}
+     border: 1px solid grey;    }
+
 .centrale{
-     margin: 0 50px 0 50px;
-}
+     margin: 0 80px 0 80px;   }
+
 .tipologia{
+     border-bottom: 1px solid grey;
+     text-align: center;
+     padding: 10px;   }
 
-}
+.descrizione_interna{
+    padding: 30px; }
 
+.n_utenti, .spazio_archiviazione, .funzioni {
+     margin-bottom: 20px;  }
 
+.prezzo{
+     padding:20px 0 10px;
+     font-weight: 900;   }
 
+.cadenza{
+     padding-bottom: 50px;
+     color: grey;       }
+
+.descrizione_interna hr{
+     margin:30px 0 30px;
+     width: 20%;           }
+
+.descrizione_interna :nth-child(7){
+     margin: 30px 0 30px;      }
+
+.descrizione_interna a{
+     color:#0061ff;     }
+
+.descrizione_interna li{
+     padding-top: 20px;    }
+
+.descrizione_interna ul {
+     list-style: none;   }
+        
+.descrizione_interna ul li:before {
+     content: "\2714";
+     color: #0061ff;
+     padding-right: 2px;     }
+/* ----- /SECTION 1 ------- */
+         
 
 
 
