@@ -52,6 +52,12 @@ nav li{
      padding-left: 50px;         }
 /* /NAV */
 
+/* Header */
+.sfondo_inf_header{
+     background-color: violet;
+     height: 50vh;
+     width: 100%;
+}
      
 
 
