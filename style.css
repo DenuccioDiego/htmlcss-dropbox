@@ -15,13 +15,15 @@ a{
      text-decoration: none;     }
      
 .bottone {
-     padding:10px 25px 10px 25px;   }
+     padding:10px 25px 10px 25px; 
+     margin-bottom: 10px;  }
      
 .blu {
      background-color: #0061ff;
      color: white;        }
 
-
+.margine_header_footer{
+     margin: 0 8% 0 8% ;    }
 
 
 
@@ -54,11 +56,41 @@ nav li{
 
 /* Header */
 .sfondo_inf_header{
-     background-color: violet;
-     height: 50vh;
+     background-color: #b4d0e7;
+     height: 88vh;
      width: 100%;
-}
-     
+     padding-top: 6rem; }
+
+header h1{
+     font-size:5rem;
+     text-align: justify;
+     padding-right: 5rem; 
+     margin-bottom: 50px;  }
+
+.layout_header_inferiore{
+     text-align: left;
+     width: 25%;
+     float: left;   }
+
+.immagine_header{
+     float: left;
+     width: 70%;
+     padding-left: 100px;
+     background-size: contain;
+     background-repeat: no-repeat;  }
+
+.layout_header_inferiore  p{
+     margin-bottom: 20px;  }
+
+.layout_header_inferiore span{
+     width: 62%;
+     display:block;    }
+
+#arrow_down{
+     font-size:4rem;
+     margin-top: 25px;  }
+
+/* Header */
 
 
 
