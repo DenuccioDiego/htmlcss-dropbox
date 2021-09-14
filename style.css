@@ -191,6 +191,7 @@ header h1{
      margin-bottom: 30px;  }
 
 .ufficio_vendite>a{
+     margin-right: 30px;
      text-decoration: none;
      display: block;
      margin-top: 30px;    }    
@@ -199,10 +200,27 @@ header h1{
 
 /* ----- SECTION 2-------- */
 
+.immagine_sx{
+     float: left;
+     background-image: url("./img/partner.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 55%;
+     height: 55vh;       }
 
+.descrizione>p{
+     padding:40px 0 40px;      }
 
+.descrizione{
+     float: left;
+     width: 45%;
+     padding: 50px 7px 0 90px;      }
 
+.descrizione>a{
+     border: 1px solid black;
+     color: inherit;
+     text-decoration: none;   }
 
-
+/* ----- /SECTION 2-------- */
 
 
