@@ -25,13 +25,14 @@ a{
 .margine_header_footer{
      margin: 0 8% 0 8% ;    }
 
-
-
-
+.margine_stretto{
+     margin: 0 17.5% 0 17.5%;  }
 
 /* /GENERALS RULES */
 
-/* NAV */
+/* -----------     HEADER    ---------------- */
+
+/* ----- NAV ----- */
 .margine_nav{
      margin:0 1% 0 1%;  }  
 
@@ -52,9 +53,9 @@ nav li{
 .blocco_nav:nth-child(2) > ul , li{
      text-align: right;
      padding-left: 50px;         }
-/* /NAV */
+/* ----- /NAV ----- */
 
-/* Header */
+/* -----  HEADER INFERIORE ----- */
 .sfondo_inf_header{
      background-color: #b4d0e7;
      height: 88vh;
@@ -89,16 +90,47 @@ header h1{
 #arrow_down{
      font-size:4rem;
      margin-top: 25px;  }
+/* -----  /HEADER INFERIORE ----- */
 
-/* Header */
-
-
-
+/* -----------     /HEADER    ---------------- */
 
 
 
+/* -----------     MAIN    ---------------- */
 
+/* SECTION 1 */
 
+.debug{
+     margin-top: 12rem;
+     background-color: thistle;
+     height: 100vh;
+     width: 100%;
+
+}
+
+h2{
+     font-size: 3rem;
+     padding-bottom: 30px;
+     
+}
+
+.layout_a_tre_colonne{
+     
+     
+}
+
+.box{
+     width: 30%;
+     height: 800px;
+     background-color: tomato;
+     float: left;
+}
+.centrale{
+     margin: 0 50px 0 50px;
+}
+.tipologia{
+
+}
 
 
 
