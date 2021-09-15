@@ -366,7 +366,8 @@ header h1{
 .arrow_question{
      position: absolute;
      right: 0;
-     top: 0;
+     top: 30%;
+     
 }
 
 .domanda{
