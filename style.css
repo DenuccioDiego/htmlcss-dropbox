@@ -223,4 +223,52 @@ header h1{
 
 /* ----- /SECTION 2-------- */
 
+/* ------ SECTION 3---------*/
 
+.blocco{
+     width: 30%;
+     float: left;
+}
+
+.immagine{
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+     height: 250px;
+}
+
+.sx_up{
+     background-image: url("./img/business-feature-switching-tools.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------ /SECTION 3---------*/
