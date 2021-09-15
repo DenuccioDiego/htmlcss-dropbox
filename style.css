@@ -18,7 +18,10 @@
 a{
      text-decoration: none;
      color: inherit; }   
-     
+
+h1{
+     font-size: 3rem;   }
+
 .acquista_ora a, #header_sezione_4 a{
      text-decoration: underline;
      color:#0061ff;     } 
@@ -108,8 +111,7 @@ header h1{
 
 /* ----- SECTION 1 ------ */
 
-.margine_stretto  h1{
-     font-size: 3rem;
+.header_sezione1 h1 {
      padding-bottom: 30px;  
      margin-top: 12rem;  }
 
@@ -204,7 +206,8 @@ header h1{
      background-size: cover;
      background-repeat: no-repeat;
      width: 55%;
-     height: 55vh;       }
+     height: 55vh; 
+     margin-bottom: 10rem;  }
 
 .descrizione>p{
      padding:40px 0 40px;      }
@@ -320,7 +323,41 @@ header h1{
 #ottavo_quadratino{
      background-color: #ffd830 ;  }
 /* /Blocchi piccoli */
+
+/* Footer sezione 4 */
+#sezione_4_footer{
+     background-color: #b4d0e7;   
+     height: 30vh;   }
+
+.sezione_4_footer_sx, .sezione_4_footer_dx{
+     float: left;   }
+
+.sezione_4_footer_contenitore{
+    padding:80px 0  ;   }
+
+.sezione_4_footer_sx{
+     width: 65%;   
+     color: #61082b;  }
+
+.sezione_4_footer_dx{
+     width: 35%;      }
+
+.sezione_4_footer_dx .bottone{
+     background-color: white;
+     width: 100%;
+     display: block;   }
+/* /Footer sezione 4 */
+
 /* ----- /SECTION 4------------ */
+
+
+
+
+
+
+
+
+
 
 
 
