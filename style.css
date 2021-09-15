@@ -380,14 +380,34 @@ header h1{
 
 /* ------- FOOTER ----------- */
 
+footer {
+     background-color: black;  
+     color: white;
+     height: 50vh;
+}
 
+.colonna{
+     float:left;
+     width: 20%;
+     list-style: none;
+}
 
+footer li{
+     padding-bottom: 10px;
+}
 
+.scelta_lingua {
+     padding-top: 50px;
+     float: left;
+}
 
+footer ul{
+     padding-top: 100px;
+}
 
-
-
-
+footer h3{
+     padding-bottom: 20px;
+}
 
 
 
