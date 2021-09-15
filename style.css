@@ -347,40 +347,38 @@ header h1{
      width: 100%;
      display: block;   }
 /* /Footer sezione 4 */
-
 /* ------ /SECTION 4------------ */
 
 /* ------ SECTION 5------------ */
-
 #sezione_5{
-     margin-top: 150px;
-     height: 500px;
-     
-} 
+     margin: 150px 0 125px;
+     height: 500px;   } 
 
 #sezione_5 h2{
      margin-bottom: 50px;
-     font-size: 2rem;
-}
+     font-size: 2rem;     }
 
 .arrow_question{
+     height: 1vw;
+     width: 1vw;
+     border-style: solid;
+     border-width: 0px 5px 5px 0px;
+     transform: rotate(45deg);
+     color:black;
      position: absolute;
      right: 0;
-     top: 30%;
-     
-}
+     top: 30%;     }
+
+#sezione_5 :nth-child(2).domanda{
+     border-top: 1px solid #dcdcde; }
 
 .domanda{
      position: relative;
      padding:40px 0 40px;
-     border-top: 1px solid #dcdcde;
-}
-
-
-
+     border-bottom: 1px solid #dcdcde;  }
 /* ------ /SECTION 5------------ */
 
-
+/* ------- FOOTER ----------- */
 
 
 
