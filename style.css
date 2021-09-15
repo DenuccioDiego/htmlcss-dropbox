@@ -355,49 +355,25 @@ header h1{
 #sezione_5{
      margin-top: 150px;
      height: 500px;
-     background-color: violet;
+     
 } 
 
 #sezione_5 h2{
-     margin-bottom: 75px;
+     margin-bottom: 50px;
      font-size: 2rem;
 }
 
-/* #sezione_5 li{
-     direction:rtl;
-     margin: 0 1em;
-     list-style: ;
-} */
-/* .indicatore_aprire_risposta {
-     border: solid black;
-     border-width: 0 3px 3px 0;
-     display: inline-block;
-     padding: 3px;
-   } */
+.arrow_question{
+     position: absolute;
+     right: 0;
+     top: 0;
+}
 
-
-#sezione_5 ul {
-     list-style-type: none;
-     
-   }
-   
-#sezione_5   li {
-     display: grid;
-     grid-template-columns: 20px auto;
-     align-items: center;
-     direction:rtl;
-   }
-   
-#sezione_5 li::before {
-     content: "\2B9F";
-     font-size: 25px;
-     
-   }
-
-
-
-
-
+.domanda{
+     position: relative;
+     padding:40px 0 40px;
+     border: border solid #dcdcde;
+}
 
 
 
