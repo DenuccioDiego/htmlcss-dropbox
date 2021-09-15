@@ -363,21 +363,36 @@ header h1{
      font-size: 2rem;
 }
 
-#sezione_5 li{
+/* #sezione_5 li{
      direction:rtl;
      margin: 0 1em;
-}
-.indicatore_aprire_risposta {
+     list-style: ;
+} */
+/* .indicatore_aprire_risposta {
      border: solid black;
      border-width: 0 3px 3px 0;
      display: inline-block;
      padding: 3px;
+   } */
+
+
+#sezione_5 ul {
+     list-style-type: none;
+     
    }
-
-
-
-
-
+   
+#sezione_5   li {
+     display: grid;
+     grid-template-columns: 20px auto;
+     align-items: center;
+     direction:rtl;
+   }
+   
+#sezione_5 li::before {
+     content: "\2B9F";
+     font-size: 25px;
+     
+   }
 
 
 
