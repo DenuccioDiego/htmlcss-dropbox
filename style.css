@@ -372,7 +372,7 @@ header h1{
 .domanda{
      position: relative;
      padding:40px 0 40px;
-     border: border solid #dcdcde;
+     border-top: 1px solid #dcdcde;
 }
 
 
