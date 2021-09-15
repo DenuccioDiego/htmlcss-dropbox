@@ -224,24 +224,41 @@ header h1{
 /* ----- /SECTION 2-------- */
 
 /* ------ SECTION 3---------*/
+/* Layout 3x3 */
+.clearfix>.blocco{
+    margin-top: 100px; }
 
 .blocco{
-     width: 30%;
-     float: left;
-}
+     width: 28%;
+     float: left;  }
 
 .immagine{
      background-position: center;
      background-repeat: no-repeat;
      background-size: contain;
-     height: 250px;
-}
+     height: 30vh;  }
+/* Layout 3x3 */
 
+/* -- Immagini dei blocchi -- */
 .sx_up{
-     background-image: url("./img/business-feature-switching-tools.png");
-}
+     background-image: url("./img/business-feature-switching-tools.png");      }
 
+.cent_up{
+     background-image: url("./img/business-feature-coordinate-it.png");        }
 
+.dx_up{
+     background-image: url("./img/business-feature-multi-device.png");        }
+
+.sx_down{
+     background-image: url("./img/business-feature-integrations-it.png");         }
+
+.cent_down{
+     background-image: url("./img/business-feature-send-files-it.png");    }
+
+.dx_down{
+     background-image: url("./img/business-feature-security.png");     }
+/* -- /Immagini dei blocchi -- */
+/* ------ /SECTION 3---------*/
 
 
 
