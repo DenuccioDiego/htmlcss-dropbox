@@ -348,9 +348,45 @@ header h1{
      display: block;   }
 /* /Footer sezione 4 */
 
-/* ----- /SECTION 4------------ */
+/* ------ /SECTION 4------------ */
+
+/* ------ SECTION 5------------ */
+
+#sezione_5{
+     margin-top: 150px;
+     height: 500px;
+     background-color: violet;
+} 
+
+#sezione_5 h2{
+     margin-bottom: 75px;
+     font-size: 2rem;
+}
+
+#sezione_5 li{
+     direction:rtl;
+     margin: 0 1em;
+}
+.indicatore_aprire_risposta {
+     border: solid black;
+     border-width: 0 3px 3px 0;
+     display: inline-block;
+     padding: 3px;
+   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* ------ /SECTION 5------------ */
 
 
 
