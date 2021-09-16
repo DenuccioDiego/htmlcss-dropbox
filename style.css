@@ -75,12 +75,15 @@ h1{
      text-align: left;
      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
      padding: 20px;
-     
      margin: 40px 0 0px 0px;   }
 
 .supporto:hover .supporto_nascosto{
      display: block;  }
 
+.supporto_nascosto>span{
+     line-height: 40px;
+     display: block;
+}     
      
 .blocco_nav{
      width: 50%;
