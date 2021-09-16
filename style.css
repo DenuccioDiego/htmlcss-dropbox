@@ -426,6 +426,14 @@ header h1{
      position: relative;
      padding:40px 0 40px;
      border-bottom: 1px solid #dcdcde;  }
+
+.risposta{
+    display: none;
+}
+
+.domanda:hover .risposta{
+    display: block; 
+}
 /* ------ /SECTION 5------------ */
 
 
