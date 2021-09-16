@@ -378,37 +378,34 @@ header h1{
      border-bottom: 1px solid #dcdcde;  }
 /* ------ /SECTION 5------------ */
 
-/* ------- FOOTER ----------- */
 
+/* ------- FOOTER ----------- */
 footer {
      background-color: black;  
      color: white;
-     height: 50vh;
-}
+     height: 55vh;    }
 
 .colonna{
      float:left;
      width: 20%;
-     list-style: none;
-}
+     list-style: none;    }
 
 footer li{
-     padding-bottom: 10px;
-}
+     padding-bottom: 10px;     }
 
 .scelta_lingua {
+     margin-top: 75px; 
      padding-top: 50px;
-     float: left;
-}
+     border-top:1px solid #a3a3a3;
+     width: 10%;
+     color: #484848;   }
 
 footer ul{
-     padding-top: 100px;
-}
+     padding-top: 150px;    }
 
 footer h3{
-     padding-bottom: 20px;
-}
-
+     padding-bottom: 20px;    }
+     /* ------- /FOOTER ----------- */
 
 
 
