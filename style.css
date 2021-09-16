@@ -68,6 +68,7 @@ h1{
      display: inline-block;   }
    
 .supporto_nascosto {
+     min-width:250px;
      display: none;
      position: absolute;
      background-color: #f9f9f9;
@@ -83,6 +84,7 @@ h1{
 .supporto_nascosto>span{
      line-height: 40px;
      display: block;
+     
 }     
      
 .blocco_nav{
