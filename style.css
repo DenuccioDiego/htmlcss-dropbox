@@ -101,9 +101,9 @@ header h1{
 .layout_header_inferiore div{
      width: 62%;    }
 
-#arrow_down{
-     font-size:4rem;
-     margin-top: 25px;  }
+.fa-arrow-down{
+     font-size:3rem;
+     margin-top: 35px;  }
 /* ----  /HEADER INFERIORE ---- */
 
 /* -------------       /HEADER    ---------------- */
@@ -146,7 +146,7 @@ header h1{
      background-color: #ccc;     }
 
 .container input:checked ~ .checkmark {
-     background-color: #2196F3; }
+     background-color: #0162ff; }
    
 .checkmark:after {
      content: "";
@@ -162,10 +162,8 @@ header h1{
      width: 12px;
      height: 12px;
      border-radius: 50%;
-     background: white;   }
-     
+     background: white;   }     
 /* Radiobox */
-
 
 .layout_a_tre_colonne{
      padding: 40px 0 50px;      }
@@ -328,14 +326,21 @@ header h1{
      padding: 80px 101px 80px 101px;
      background-color: #f5f5f5;      }
 
-.sezione4_centrale :nth-child(2){
-     font-size: xx-small;  }
+.sezione4_centrale span:first-of-type{
+     font-size: 10px;  }
 
 .sezione4_centrale p{
      margin-bottom: 50px;  }
 
 .sezione4_centrale h1{
-     font-size: 2rem;} 
+     line-height: 0px;
+     font-size: 30px;
+     display: inline;
+     font-weight: 800;  } 
+
+.fa-registered{
+     font-size: 10px; 
+     vertical-align:top;  }
 
 .sezione4_laterale{
      width: 30%;
