@@ -76,7 +76,7 @@ h1{
      padding: 12px 16px;
      z-index: 1;  }
 
-.supporto:hover{
+.supporto:hover .supporto_nascosto{
      display: block;  }
 
      
