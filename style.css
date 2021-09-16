@@ -432,7 +432,8 @@ header h1{
     display: none;   }
 
 .domanda:hover .risposta{
-    display: block;   }
+     display: block;  
+     color: grey;   }
 /* ------ /SECTION 5------------ */
 
 
