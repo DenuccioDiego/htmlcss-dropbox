@@ -3,7 +3,9 @@
      box-sizing: border-box;
      margin:0;
      padding: 0;
-     font-family: 'Open Sans',sans-serif; }
+     font-family: 'Open Sans',sans-serif; 
+     scroll-behavior: smooth;   }
+
 
 body{
      min-width:1440px}
@@ -48,8 +50,18 @@ h1{
 /* --------------       HEADER    ---------------- */
 
 /* ----- NAV ----- */
-.margine_nav{
-     margin:0 1% 0 1%;  }  
+.nav_visibile{
+     background-color: white;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     padding: 0 12.5px 0 12.5px;
+     border-bottom: solid #cfd0d4 1px;}
+
+nav a[href=link]:hover {
+     padding-bottom: 38px ;
+     border-bottom: solid 2px black;  }
 
 .blocco_nav{
      width: 50%;
@@ -102,6 +114,7 @@ header h1{
      width: 62%;    }
 
 .fa-arrow-down{
+     
      font-size:3rem;
      margin-top: 35px;  }
 /* ----  /HEADER INFERIORE ---- */
