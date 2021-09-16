@@ -3,7 +3,8 @@
      box-sizing: border-box;
      margin:0;
      padding: 0;
-     font-family: 'Open Sans',sans-serif;  }
+     font-family: 'Open Sans',sans-serif;
+}
 
 .clearfix::after{
      display: table;
@@ -51,11 +52,11 @@ h1{
 .blocco_nav{
      width: 50%;
      float: left;
-     padding: 30px 0px 30px;
-     max-height: 80px;      }
+     padding: 30px 0px 30px;      }
 
 .logo{
-     float: left;  }
+     float: left; 
+     vertical-align: middle;  }
 
 nav li{
      display: inline;
