@@ -454,6 +454,9 @@ header h1{
      margin-bottom: 50px;
      font-size: 2rem;     }
 
+.domanda:hover .fa-chevron-down{
+     transform: rotate(180deg);   }
+     
 .fa-chevron-down{
      position: absolute;
      right: 0;
