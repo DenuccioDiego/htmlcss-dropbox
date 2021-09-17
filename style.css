@@ -456,7 +456,7 @@ header h1{
 
 .domanda:hover .fa-chevron-down{
      transform: rotate(180deg);   }
-     
+
 .fa-chevron-down{
      position: absolute;
      right: 0;
@@ -505,6 +505,11 @@ footer ul{
 
 footer h3{
      padding-bottom: 20px;    }
+
+footer a:hover{
+     text-decoration: underline;
+}
+
      /* ------- /FOOTER ----------- */
 
 
